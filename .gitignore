@@ -1,0 +1,26 @@
+# Ignorar archivos de compilación de Java
+*.class
+
+# Ignorar carpetas de dependencias
+/node_modules
+/target
+/output
+icon.ico
+*.xml
+*.db
+*.iss
+*.exe
+# Ignorar archivos de configuración del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de log
+*.log
+
+# Ignorar archivos generados por el entorno de desarrollo
+.idea/
+*.iml
+
+# Ignorar archivos sensibles o de configuración
+.env
+config/*.secret
